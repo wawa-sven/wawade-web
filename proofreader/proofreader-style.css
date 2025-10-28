@@ -1,0 +1,101 @@
+/* Base typography */
+:root {
+  color-scheme: light;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.5rem 4rem;
+  background: #f7fafc;
+  color: #1f2933;
+}
+
+a {
+  color: #0f766e;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.policy {
+  max-width: 68ch;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.policy__header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.policy__header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+}
+
+.policy__effective-date {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #52606d;
+}
+
+.policy h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: #0f172a;
+}
+
+.policy h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  color: #1f2933;
+}
+
+.policy p {
+  margin: 0 0 1rem;
+}
+
+.policy ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.3rem;
+}
+
+.policy li + li {
+  margin-top: 0.5rem;
+}
+
+.policy address {
+  font-style: normal;
+  margin-top: 0.75rem;
+  color: #334155;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .policy {
+    padding: 2rem 1.25rem 2.5rem;
+    border-radius: 12px;
+  }
+
+  .policy__header h1 {
+    font-size: 1.65rem;
+  }
+
+  .policy h2 {
+    font-size: 1.25rem;
+  }
+}
